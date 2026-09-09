@@ -16,7 +16,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://sms-backend-118.s3-website-us-east-1.amazonaws.com/"
+        "http://sms-backend-118.s3-website-us-east-1.amazonaws.com"
         "http://localhost:5173",
     ],
     allow_credentials=True,
